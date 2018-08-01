@@ -1,0 +1,16 @@
+﻿<Window x:Class="BlockyExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BlockyExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="341.768" Width="554.545">
+    <Grid>
+
+        <WebBrowser Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Width="auto" Margin="23,49,23,23" LoadCompleted="WebBrowser_LoadCompleted" Name="Browser"/>
+        <Button Content="Show Code From C#" HorizontalAlignment="Left" Margin="24,13,0,0" VerticalAlignment="Top" Width="150" Name="RunCodeButton" Height="25" Click="RunCodeButton_Click"/>
+        <Button Content="Run Code From C#" HorizontalAlignment="Left" Margin="191,14,0,0" VerticalAlignment="Top" Width="150" Name="ShowCodeButton" Height="25" Click="ShowCodeButton_Click"/>
+
+    </Grid>
+</Window>

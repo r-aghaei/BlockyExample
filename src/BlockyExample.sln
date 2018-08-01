@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockyExample", "BlockyExample\BlockyExample.csproj", "{1F32305B-B2A5-4D69-941A-F9869568D054}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85EECBAB-37B6-4380-BE51-0774B095533F}"
+	ProjectSection(SolutionItems) = preProject
+		..\blocky.png = ..\blocky.png
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
